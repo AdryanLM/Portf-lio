@@ -1,0 +1,204 @@
+@import "https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Varela+Round&display=swap";
+
+:root{
+    --color-aqua: aqua;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background: #141725;
+    font-family: 'Varela Round', sans-serif;
+    color: azure;
+    padding: 32px;
+    }
+
+header{
+    padding: 32px;
+    border: 1px solid #333;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.links{    
+    text-align: center;
+
+}
+.links a{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 10px;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+.links a:hover{
+    color: var(--color-aqua);
+    transition: 500ms;
+}
+#wrapper{
+    text-align: center;
+    padding: 32px;
+
+}
+#wrapper img{
+    border-radius: 50%;
+    border: 5px solid var(--color-aqua);
+    margin-bottom: 32px;
+    height: 250px;
+}
+#wrapper h1{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: normal;
+}
+#wrapper h2{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+#wrapper p{
+    max-width: 500px;
+    margin: 30px auto;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+#wrapper p a{
+    color: var(--color-aqua);;
+}
+#links-footer a {
+border-bottom: 1px solid var(--color-aqua);
+
+}
+
+
+/*=== CARDS ===*/
+
+.cards{
+    max-width: 750px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.card{
+    background-color: rgb(19, 109, 53) ;
+    padding-bottom: 1px;
+}
+
+
+.card__image-container img{
+     width: 100%; 
+    
+}
+
+.card__content,
+.card__info,
+.card__championship,
+.card__big {
+    padding: 24px;
+}
+.card__content{
+    background-color: rgb(19, 109, 53) ;
+    filter: brightness(90%);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+}
+.card__info{
+    background-color: rgb(19, 109, 53) ;
+    filter: brightness(90%);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+}
+.card__big{
+    background-color: rgb(19, 109, 53) ;
+    filter: brightness(90%);
+    border-radius: 20px;
+    margin:20px;
+    padding: 10px;
+    text-align: left;
+}
+.card__championship{
+    background-color: rgb(19, 109, 53) ;
+    filter: brightness(90%);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+    
+}
+.card__anime{
+    background-color: rgb(19, 109, 53) ;
+    filter: brightness(90%);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+.card__favorite{
+    background-color: rgb(19, 109, 53) ;
+    filter: brightness(90%);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+    .card__ep  {
+        background-color: rgb(19, 109, 53) ;
+        filter: brightness(90%);
+        border-radius: 20px;
+        margin: 10px;
+        padding: 10px;
+        text-align: left;
+        
+    }
+    .card__serie{
+        background-color: rgb(19, 109, 53) ;
+        filter: brightness(90%);
+        border-radius: 20px;
+        margin: 25px;       
+        padding: 10px;
+        text-align: left;
+    }
+    .card__preferred{
+        background-color: rgb(19, 109, 53) ;
+        filter: brightness(90%);
+        border-radius: 20px;
+        margin: 25px;       
+        padding: 10px;
+        text-align: left;
+    }
+    .card__number{
+        background-color: rgb(19, 109, 53) ;
+        filter: brightness(90%);
+        border-radius: 20px;
+        margin: 25px;
+        padding: 10px;
+        text-align: left;
+    }
+    .card__temp{
+        background-color: rgb(19, 109, 53) ;
+        filter: brightness(90%);
+        border-radius: 20px;
+        margin: 25px;
+        padding: 10px;
+        text-align: left;
+    }
+    .card__st{
+        background-color: rgb(19, 109, 53) ;
+        filter: brightness(90%);
+        border-radius: 20px;
+        margin: 25px;
+        padding: 10px;
+        text-align: left;
+    }
